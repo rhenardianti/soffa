@@ -1,0 +1,46 @@
+.sideMenu {
+    width: fit-content;
+    display: flex;
+    height: fit-content;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    justify-content: center;
+    background-color: rgb(52, 65, 77, 0.1);
+}
+
+.sideMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sideMenu li {
+    padding: 10px;
+}
+
+.sideMenu a {
+    text-decoration: none;
+    color: rgb(203, 206, 209);;
+}
+
+.sideMenu a:hover {
+    color: rgb(52, 65, 77);
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu button {
+    
+    color: rgb(245, 246, 248);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    color: rgb(52, 65, 77);
+}
